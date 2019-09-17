@@ -37,7 +37,7 @@ const ClothestSchema = new mongoose.Schema({
     margin:{
         type: Number,
         default: function() {            
-            return purchaseValue * 2;
+            return this.purchaseValue * 2;
         }
     },
     features:{

@@ -12,11 +12,13 @@ app.use(express.json());
 app.use(cors());
 
 //Iniciando Data Base
-mongoose.connect('mongodb://localhost:27017/lp4n2', { useNewUrlParser: true } );
+mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true } );
+
+// Carregar Models
+requireDir('./src/models');
 
 // Rotas
 app.use('/api',require('./src/routes'));
-
 
 app.listen(port, () => {
     console.log('Server listening on port %d ...', port);
