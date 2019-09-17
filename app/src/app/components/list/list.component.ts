@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonService } from 'src/app/api/common.service';
+import { Clothes } from 'src/app/api/common.models';
 
 @Component({
   selector: 'app-list',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private api: CommonService) { }
 
-  ngOnInit() {
+  dataList: Clothes[]
+
+  async ngOnInit() {
+    this.dataList = await this.api.getData()
   }
 
 }
