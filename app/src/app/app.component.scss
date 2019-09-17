@@ -1,0 +1,34 @@
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: #344955;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    .title{
+        margin-top: 2vh;
+        font-size: 3vh;
+    }
+}
+.body {
+    display: flex;
+    justify-content: space-around;
+    margin: -3vh;
+
+    mat-card {
+        width: 70vw;
+    }
+
+    .addButton{
+
+        button{          
+            background-color: #f9aa33;
+            color: black;
+            mat-icon {
+                font-size: 23px;
+            }
+        }
+    }
+}
