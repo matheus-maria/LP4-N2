@@ -13,3 +13,11 @@ app.use(cors());
 
 //Iniciando Data Base
 mongoose.connect('mongodb://localhost:27017/nodeapi', { useNewUrlParser: true } );
+
+// Rotas
+app.use('/api',require('./src/routes'));
+
+
+app.listen(port, () => {
+    console.log('Server listening on port %d ...', port);
+});
