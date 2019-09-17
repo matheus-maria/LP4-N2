@@ -17,10 +17,14 @@ import {
    MatButtonModule, MatInputModule,
    MatIconModule, MatIconRegistry, MatSnackBarModule, MatSelectModule, MatDialogModule, MatProgressSpinnerModule, MatToolbarModule, MatTableModule, MatCheckboxModule, MatProgressBarModule, MatDividerModule, MatTooltipModule, MatListModule, MatBadgeModule, MatChipsModule, MatSliderModule, MatTabsModule, MatExpansionModule, MatAutocompleteModule, MatDatepickerModule, MatNativeDateModule, MatSlideToggleModule
 } from '@angular/material';
+import { ListComponent } from './components/list/list.component';
+import { DetailsComponent } from './components/details/details.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListComponent,
+    DetailsComponent
   ],
   imports: [
     // Angular Core
