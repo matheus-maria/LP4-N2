@@ -21,4 +21,12 @@ export class CommonService {
       catch { return null; }
    }
 
+   public async getItem(id: number): Promise<Clothes> {
+      try {
+         let url = `${environment.HostAPI}${environment.PathAPI}/clothes/${id}`
+         return await this.http.get<Clothes>(url).toPromise();
+      }
+      catch { return null; }
+   }
+
 }
