@@ -10,7 +10,9 @@ __Questões Projeto N2 2o bimestre - QRoll__
 
 __1.__	Informar nome do projeto, propósito do sistema e percepção quanto ao andamento do mesmo. Ele está atrasado, no prazo ou mais rápido que o esperado?
         __Nome do Projeto:__ _QRoll_
+        
         __Propósito do Sistema:__ _Facilitar e otimizar o processo de chamada da faculdade_
+        
         __Percepção quanto ao andamento:__ _Está no prazo porém precisa de mais atenção. Ele já está todo planejado, porém falta "sair do papel". Será iniciado assim que a época de N2 do primeiro bimestre passar._
 
 __2.__	No que a tecnologia que está sendo estudada contribui ou dificulta para a implementação da solução?
