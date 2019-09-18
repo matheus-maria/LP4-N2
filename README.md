@@ -10,6 +10,7 @@
 __Questões Projeto N2 2o bimestre - QRoll__
 
 __1.__	Informar nome do projeto, propósito do sistema e percepção quanto ao andamento do mesmo. Ele está atrasado, no prazo ou mais rápido que o esperado?
+
 __Nome do Projeto:__ _QRoll_
 
 __Propósito do Sistema:__ _Facilitar e otimizar o processo de chamada da faculdade_
@@ -34,6 +35,7 @@ __6.__	Quais são as próximas tarefas que estão planejadas para cada membro do
 __7.__	Responder essa questão individualmente:
       Existe algum fator impeditivo para execução de suas tarefas no momento? 
         •	Observando as tecnologias empregadas para atender ao desenvolvimento, indique aquela que mais lhe interessa aprender de forma detalhada.
+        
 __Maria:__ _O maior "impeditivo" para a execução das tarefas é minha falta de experiência em NodeJS, Angular8 e MongoDB. Isso faz com que eu perca produtividade, pois acabo perdendo muito tempo com pequenos erros._
         
 __Matheus:__ __
