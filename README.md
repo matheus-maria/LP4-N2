@@ -27,7 +27,7 @@ _Sim: dev.azure.com/mmatheusmaria_
 
 __4.__	Quais User Stories o time tem participado fortemente? Já existe código postado em um repositório?
 
-_Atualmente o time está trabalhando na User Story "Preparação do Ambiente de Trabalho". Ainda não existe código postado em repositório._
+_Atualmente o time está trabalhando na User Story "Preparação do Ambiente de Trabalho". https://github.com/matheus-maria/qroll_
 
 __5.__	Quantas tarefas já foram encerradas no projeto? Quais foram aquelas em que se encontrou maior dificuldade técnica? Como conseguiram superar a dificuldade e atingir o objetivo esperado?
 
@@ -42,7 +42,7 @@ __7.__	Responder essa questão individualmente: Existe algum fator impeditivo pa
         
 __Maria:__ _O maior "impeditivo" para a execução das tarefas é minha falta de experiência em NodeJS, Angular8 e MongoDB. Isso faz com que eu perca produtividade, pois acabo perdendo muito tempo com pequenos erros. Desejo aprender de forma mais detalhada NodeJS._
         
-__Matheus:__ __
+__Matheus:__ _ Sem muitos impeditivos! Já conheço a ferramenta!
         
 __Gustavo:__ __
 
