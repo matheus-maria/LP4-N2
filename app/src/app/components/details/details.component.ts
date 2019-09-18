@@ -17,7 +17,8 @@ export class DetailsComponent implements OnInit {
   async ngOnInit() {
     this.route.params      
       .subscribe( async (params) => {
-        this.item = await this.api.getItem(params.id)        
+        if(params.id != -1)
+          this.item = await this.api.getItem(params.id)        
     });
   }
 
