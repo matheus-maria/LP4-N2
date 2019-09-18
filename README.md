@@ -5,15 +5,16 @@
 - Maria Silveira 081160042
 - Matheus Maria 081160017
 - Gustavo Antonio 081160005
+- Gileade Lamede 081160044
 
 __Questões Projeto N2 2o bimestre - QRoll__
 
 __1.__	Informar nome do projeto, propósito do sistema e percepção quanto ao andamento do mesmo. Ele está atrasado, no prazo ou mais rápido que o esperado?
-        __Nome do Projeto:__ _QRoll_
-        
-        __Propósito do Sistema:__ _Facilitar e otimizar o processo de chamada da faculdade_
-        
-        __Percepção quanto ao andamento:__ _Está no prazo porém precisa de mais atenção. Ele já está todo planejado, porém falta "sair do papel". Será iniciado assim que a época de N2 do primeiro bimestre passar._
+__Nome do Projeto:__ _QRoll_
+
+__Propósito do Sistema:__ _Facilitar e otimizar o processo de chamada da faculdade_
+
+__Percepção quanto ao andamento:__ _Está no prazo porém precisa de mais atenção. Ele já está todo planejado, porém falta "sair do papel". Será iniciado assim que a época de N2 do primeiro bimestre passar._
 
 __2.__	No que a tecnologia que está sendo estudada contribui ou dificulta para a implementação da solução?
         _Serão utilizados Angular8, NodeJS e MongoDB no desenvolvimento do software. Essas tecnologias contribuem muito para nosso conhecimento por se tratarem de novos tecnologias que estão aquecidas no mercado. Já a vantagem de utilizar essas tecnologias no projeto são performance e fácil reaproveitamento de código._
@@ -33,9 +34,11 @@ __6.__	Quais são as próximas tarefas que estão planejadas para cada membro do
 __7.__	Responder essa questão individualmente:
       Existe algum fator impeditivo para execução de suas tarefas no momento? 
         •	Observando as tecnologias empregadas para atender ao desenvolvimento, indique aquela que mais lhe interessa aprender de forma detalhada.
-        __Maria:__ _O maior "impeditivo" para a execução das tarefas é minha falta de experiência em NodeJS, Angular8 e MongoDB. Isso faz com que eu perca produtividade, pois acabo perdendo muito tempo com pequenos erros._
+__Maria:__ _O maior "impeditivo" para a execução das tarefas é minha falta de experiência em NodeJS, Angular8 e MongoDB. Isso faz com que eu perca produtividade, pois acabo perdendo muito tempo com pequenos erros._
         
-        __Matheus:__ __
+__Matheus:__ __
         
-        __Gustavo:__ __
+__Gustavo:__ __
+
+__Gileade:__ __
         
