@@ -1,3 +1,22 @@
 mat-card {
     width: 70vw;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.mat-card-actions{
+    display: flex;
+    justify-content: center;
+
+    button {
+        text-transform: uppercase;
+        padding: 0.5vh 3vw;
+        margin: 1vh 1vw;
+        min-width: 15vw;
+    }
+}

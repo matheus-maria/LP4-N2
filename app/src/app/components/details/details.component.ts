@@ -14,46 +14,62 @@ export class DetailsComponent implements OnInit {
   constructor(private api: CommonService, private router: Router, 
     private route: ActivatedRoute, private fb: FormBuilder) { }
 
-  item: Clothes 
-
   public form: FormGroup
+
+  id: number = -1
+  types  = ['Vestido','Saia','Conjunto','Blusa','Calça']
+  brands = ['Polo','Tommy','Forever','Levis']
 
   async ngOnInit() {
     this.route.params      
       .subscribe( async (params) => {
-        if(params.id != -1)
-          this.item = await this.api.getItem(params.id)        
+        if(params.id != -1){
+          this.id = params.id
+          this.api.Data = await this.api.getItem(params.id)
+        }
+          
+        this.createForms()
+        
     });
-    this.createForms()
-
   }
 
   createForms = () => {
     this.form = this.fb.group({
-      Code : [this.item.code, Validators.required],
-      Color : [this.item.color, Validators.required],
-      EntryAt : [this.item.entryAt, Validators.required],
-      SaleValue : [this.item.saleValue, Validators.required],
-      PurchaseValue : [this.item.purchaseValue, Validators.required],
-      Type : [this.item.type, Validators.required],
-      Brand : [this.item.brand, Validators.required],
-      Features : [this.item.features, Validators.required],
-      Size : [this.item.size, Validators.required],
-      Price : [this.item.price, Validators.required]
+      code : [this.api.Data.code, Validators.required],
+      color : [this.api.Data.color, Validators.required],
+      entryAt : [this.api.Data.entryAt, Validators.required],
+      saleValue : [this.api.Data.saleValue, Validators.required],
+      purchaseValue : [this.api.Data.purchaseValue, Validators.required],
+      type : [this.api.Data.type, Validators.required],
+      brand : [this.api.Data.brand, Validators.required],
+      features : [this.api.Data.features, Validators.required],
+      size : [this.api.Data.size, Validators.required],
+      price : [this.api.Data.price, Validators.required]
     })
 
-    this.form.valueChanges.subscribe((values: Clothes) => {
-      this.item.code = values.code
-      this.item.color = values.color
-      this.item.entryAt = values.entryAt
-      this.item.saleValue = values.saleValue
-      this.item.purchaseValue = values.purchaseValue
-      this.item.type = values.type
-      this.item.brand = values.brand
-      this.item.features = values.features
-      this.item.size = values.size
-      this.item.price = values.price
+    this.form.valueChanges.subscribe(values => {
+      this.api.Data.code = values.code
+      this.api.Data.color = values.color
+      this.api.Data.entryAt = values.entryAt
+      this.api.Data.saleValue = values.saleValue
+      this.api.Data.purchaseValue = values.purchaseValue
+      this.api.Data.type = values.type
+      this.api.Data.brand = values.brand
+      this.api.Data.features = values.features
+      this.api.Data.size = values.size
+      this.api.Data.price = values.price
     })
+  }
+
+  onCancelClick = () => {
+    this.form.reset()
+    this.router.navigate(['/'])
+  }
+
+  onConfirmClick = async () => {
+    await this.api.save(this.id)
+    this.form.reset()
+    this.router.navigate(['/'])
   }
 
 }

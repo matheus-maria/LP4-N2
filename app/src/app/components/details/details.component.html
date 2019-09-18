@@ -5,6 +5,104 @@
     
     <mat-card-content>
         <!-- <pre>{{ item | json }}</pre> -->
-        <form [formGroup]="form"></form>
+        <form *ngIf="form" [formGroup]="form">
+            <div class="row">
+                
+                <!-- Code -->
+                <mat-form-field style="width:10vw;">
+                    <mat-label>Código</mat-label>
+                    <input matInput formControlName="code" />
+                </mat-form-field>                
+
+                <!-- Color -->
+                <mat-form-field style="width:10vw;">
+                    <mat-label>Cor</mat-label>
+                    <input matInput formControlName="color" />
+                </mat-form-field>
+
+                <!-- Features -->
+                <mat-form-field style="width:30vw;">
+                    <mat-label>Caracteristicas</mat-label>
+                    <input matInput formControlName="features" />
+                </mat-form-field>
+
+                <!-- Size -->
+                <mat-form-field style="width:5vw;">
+                    <mat-label>Tamanho</mat-label>
+                    <input matInput formControlName="size" />
+                </mat-form-field>
+
+            </div>
+
+            <div class="row">
+                
+                <!-- Type -->
+                <mat-form-field>
+                    <mat-label>Tipo</mat-label>
+                    <mat-select formControlName="type">
+                        <mat-option *ngFor="let type of types" [value]="type">                        
+                            <span>{{type}}</span>
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>                
+
+                <!-- Brand -->
+                <mat-form-field>
+                    <mat-label>Marca</mat-label>
+                    <mat-select formControlName="brand">
+                        <mat-option *ngFor="let brand of brands" [value]="brand">                        
+                            <span>{{brand}}</span>
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field> 
+
+                <!-- EntryAt -->
+                <mat-form-field>
+                    <mat-label>Data da Entrada</mat-label>
+                    <input matInput [matDatepicker]="entryAtPickerAdd" formControlName="entryAt">
+                    <mat-datepicker-toggle matSuffix [for]="entryAtPickerAdd"></mat-datepicker-toggle>
+                    <mat-datepicker #entryAtPickerAdd></mat-datepicker>
+                </mat-form-field>
+                
+            </div>
+
+            <div class="row">
+                
+                <!-- SaleValue -->
+                <mat-form-field>
+                    <mat-label>Valor de Vande</mat-label>
+                    <input matInput formControlName="saleValue" />
+                </mat-form-field>                 
+
+                <!-- PurchaseValue -->
+                <mat-form-field>
+                    <mat-label>Valor de Compra</mat-label>
+                    <input matInput formControlName="purchaseValue" />
+                </mat-form-field>  
+
+                <!-- Margin -->
+                <mat-form-field>
+                    <mat-label>Margem</mat-label>
+                    <input matInput disabled [value]="form.get('purchaseValue').value * 2" />
+                </mat-form-field>  
+
+                <!-- Price -->
+                <mat-form-field>
+                    <mat-label>Preço</mat-label>
+                    <input matInput formControlName="price" />
+                </mat-form-field>  
+                
+            </div>
+
+        </form>
     </mat-card-content>
 </mat-card>
+
+<div class="mat-card-actions">
+    <button mat-flat-button (click)="onCancelClick()">
+        Cancelar
+    </button>
+    <button mat-flat-button color="primary" [disabled]="!form?.valid" (click)="onConfirmClick()">
+        Adicionar
+    </button>
+</div>

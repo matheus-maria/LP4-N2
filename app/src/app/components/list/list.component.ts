@@ -19,8 +19,9 @@ export class ListComponent implements OnInit {
     this.dataList = await this.api.getData()    
   }
 
-  remove = (id: number) => {
-    console.log("Id",id)
+  remove = async (id: number) => {
+    this.api.remove(id)
+    location.reload();
   }
 
   edit = (id: number) => {

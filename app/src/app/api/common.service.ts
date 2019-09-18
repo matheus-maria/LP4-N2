@@ -29,4 +29,30 @@ export class CommonService {
       catch { return null; }
    }
 
+   public async save(id: number): Promise<Clothes> {
+      try {
+         
+         if(id == -1){
+            let url = `${environment.HostAPI}${environment.PathAPI}/clothes`
+            return await this.http.post<Clothes>(url,this.Data).toPromise();
+         }
+         else {
+            let url = `${environment.HostAPI}${environment.PathAPI}/clothes/${id}`
+            return await this.http.put<Clothes>(url,this.Data).toPromise();
+         }
+         
+      }
+      catch { return null; }      
+   }
+
+   public async remove(id: number): Promise<any> {
+      try {                  
+         let url = `${environment.HostAPI}${environment.PathAPI}/clothes/${id}`
+         return await this.http.delete<Clothes>(url).toPromise();         
+         
+         
+      }
+      catch { return null; }      
+   }
+
 }
