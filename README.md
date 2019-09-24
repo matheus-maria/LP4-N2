@@ -42,7 +42,7 @@ __7.__	Responder essa questão individualmente: Existe algum fator impeditivo pa
         
 __Maria:__ _O maior "impeditivo" para a execução das tarefas é minha falta de experiência em NodeJS, Angular8 e MongoDB. Isso faz com que eu perca produtividade, pois acabo perdendo muito tempo com pequenos erros. Desejo aprender de forma mais detalhada NodeJS._
         
-__Matheus:__ _ Sem muitos impeditivos! Já conheço a ferramenta!_
+__Matheus:__ _Sem muitos impeditivos! Já conheço a ferramenta!_
         
 __Gustavo:__ _O maior impeditivo para a execução das tarefas relacionadas ao projeto é a falta de conhecimento das tecnologias utilizadas, dessa forma mesmo em tarefas simples perco bastante tempo pesquisando e aprendendo sobre os comandos a serem utilizados. Das tecnologias utilizadas as que mais tenho vontade de me aprofundar são MongoDB e Angular8._
 
