@@ -27,7 +27,7 @@ _Sim: dev.azure.com/mmatheusmaria_
 
 __4.__	Quais User Stories o time tem participado fortemente? Já existe código postado em um repositório?
 
-_Atualmente o time está trabalhando na User Story "Preparação do Ambiente de Trabalho". https://github.com/matheus-maria/qroll_
+_Atualmente o time está trabalhando na User Story "Preparação do Ambiente de Trabalho". Sim, repositório: https://github.com/matheus-maria/qroll_
 
 __5.__	Quantas tarefas já foram encerradas no projeto? Quais foram aquelas em que se encontrou maior dificuldade técnica? Como conseguiram superar a dificuldade e atingir o objetivo esperado?
 
@@ -42,9 +42,9 @@ __7.__	Responder essa questão individualmente: Existe algum fator impeditivo pa
         
 __Maria:__ _O maior "impeditivo" para a execução das tarefas é minha falta de experiência em NodeJS, Angular8 e MongoDB. Isso faz com que eu perca produtividade, pois acabo perdendo muito tempo com pequenos erros. Desejo aprender de forma mais detalhada NodeJS._
         
-__Matheus:__ _ Sem muitos impeditivos! Já conheço a ferramenta!
+__Matheus:__ _ Sem muitos impeditivos! Já conheço a ferramenta!_
         
-__Gustavo:__ _O maior impeditivo para a execução das tarefas relacionadas ao projeto é a falta de conhecimento das tecnologias utilizadas, dessa forma mesmo em tarefas simples perco bastante tempo pesquisando e aprendendo sobre os comandos a serem utilizados. Das tecnologias utilizadas as que mais tenho vontade de me aprofundar são MongoDB e Angular8.
+__Gustavo:__ _O maior impeditivo para a execução das tarefas relacionadas ao projeto é a falta de conhecimento das tecnologias utilizadas, dessa forma mesmo em tarefas simples perco bastante tempo pesquisando e aprendendo sobre os comandos a serem utilizados. Das tecnologias utilizadas as que mais tenho vontade de me aprofundar são MongoDB e Angular8._
 
-__Gileade:__ _Meu maior impeditivo é com relação ao trabalho que exige conhecimento em outras áreas para atender as demandas dos projetos. Apesar de já estar aprendendo Java Spring Boot, tenho muito interesse em aprofundar meu conhecimento em outros frameworks como  dot Net.
+__Gileade:__ _Meu maior impeditivo é com relação ao trabalho que exige conhecimento em outras áreas para atender as demandas dos projetos. Apesar de já estar aprendendo Java Spring Boot, tenho muito interesse em aprofundar meu conhecimento em outros frameworks como  dot Net._
         
