@@ -44,7 +44,7 @@ __Maria:__ _O maior "impeditivo" para a execução das tarefas é minha falta de
         
 __Matheus:__ _ Sem muitos impeditivos! Já conheço a ferramenta!
         
-__Gustavo:__ __
+__Gustavo:__ _O maior impeditivo para a execução das tarefas relacionadas ao projeto é a falta de conhecimento das tecnologias utilizadas, dessa forma mesmo em tarefas simples perco bastante tempo pesquisando e aprendendo sobre os comandos a serem utilizados. Das tecnologias utilizadas as que mais tenho vontade de me aprofundar são MongoDB e Angular8.
 
-__Gileade:__ __
+__Gileade:__ _Meu maior impeditivo é com relação ao trabalho que exige conhecimento em outras áreas para atender as demandas dos projetos. Apesar de já estar aprendendo Java Spring Boot, tenho muito interesse em aprofundar meu conhecimento em outros frameworks como  dot Net.
         
